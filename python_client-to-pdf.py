@@ -18,7 +18,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph, Table, Image
 from reportlab.lib.styles import getSampleStyleSheet
 
 # Paramètres de la requête HTTP
-Id_Etudiant = ['1','2']
+Id_Etudiant = 'all'
 Code_Unite = "SEV-5106E"
 
 uri = "https://www.gaalactic.fr/~ugona/ws/2024-2025/SEV-5106E/notes.py?Id_Etudiant={}&Code_Unite=SEV-5106E" . format(Id_Etudiant, Code_Unite)
