@@ -103,7 +103,7 @@ doc.build(pdf_elements)
 
 
 #1 prétraiter les données (fichiers txt opensignals)
-    #segmenter 
+    #segmenter (pied immobile/apnée)
     #nettoyer les données
         #enlever le bruit 
             #filtres (passe-haut, passe-bas, passe-bande, coupe-bande)
@@ -111,3 +111,6 @@ doc.build(pdf_elements)
         #enlever les outliers
         
 
+#2 envoi vers le serveur de télémédecine (POST)
+#3 lecture des données à partir du serveur (GET)
+#4 analyse et post-traitement
